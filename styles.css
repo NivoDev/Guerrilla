@@ -1,8 +1,14 @@
 body {
-  margin: -25px;
-  text-align: center;
-  color: #fff;
+  margin: 0;
+  padding 0;
   height: 100%;
+  background-image: url(images/Guerrillaweb.jpg);
+  background-position: center top;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 hr{
   border: dotted #EAF6F6 6px;
@@ -151,19 +157,16 @@ iframe{
   background-size: cover;
   background-color: #383937;
   position: relative;
-  margin-bottom: 0;
-margin-top: auto;
+  margin-top: auto;
   padding-top: 80px;
 }
 
 .middle-container {
-
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 position: relative;
-  background-color: #383937;
   padding: 3px;
   color: #fff;
   text-align: center;
@@ -175,12 +178,15 @@ position: relative;
   position: relative;
   color: white;
   padding: 5% 10%;
-  margin: 0;
-
+  bottom: 0;
 
 }
 
-
+.social-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .btn {
   background: #a3b18a;
