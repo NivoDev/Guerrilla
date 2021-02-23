@@ -2,6 +2,7 @@ body {
   margin: -25px;
   text-align: center;
   color: #fff;
+  height: 100%;
 }
 hr{
   border: dotted #EAF6F6 6px;
